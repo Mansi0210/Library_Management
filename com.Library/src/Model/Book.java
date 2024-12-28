@@ -5,7 +5,7 @@ public class Book {
     String title;
     String author;
     int publishYear;
-    boolean available;
+    boolean available = true;
 
     public String getIsbn() {
         return isbn;
